@@ -1,7 +1,5 @@
 class Job:
-     
-
-def __init__(self, taskId, deadline, profit):
+    def __init__(self, taskId, deadline, profit):
         self.taskId = taskId
         self.deadline = deadline
         self.profit = profit
@@ -28,4 +26,4 @@ if __name__ =='__main__':
         profit = int(input("Enter profit for job {}: ".format(i+1)))
         jobs.append(Job(taskId, deadline, profit))
     T = int(input("Enter the total time: "))
-    schedulejobs(jobs, T
+    schedulejobs(jobs, T)
