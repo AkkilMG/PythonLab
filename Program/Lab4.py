@@ -43,4 +43,3 @@ for i in range(n):
 
 # Compute and display the minimum cost connection
 g.prim_mst()
-     
