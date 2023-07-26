@@ -5,10 +5,10 @@ class Calc:
         print(f"Sum: {a+b}")
 
     def Sub(self, a, b):
-        print(f"Sum: {a-b}")
+        print(f"Sub: {a-b}")
 
     def Multi(self, a, b):
-        print(f"Sum: {a*b}")
+        print(f"Product: {a*b}")
 
     def Division(self, a, b):
         print(f"Quotient: {a/b}")
